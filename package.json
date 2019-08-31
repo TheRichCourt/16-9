@@ -1,0 +1,24 @@
+{
+  "name": "16-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ".\\node_modules\\.bin\\webpack --mode=development",
+    "watch": ".\\node_modules\\.bin\\webpack --mode=development --watch",
+    "build-prod": ".\\node_modules\\.bin\\webpack --mode=production"
+  },
+  "author": "Rich Court",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
+}
