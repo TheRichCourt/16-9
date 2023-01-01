@@ -12,13 +12,13 @@
   "author": "Rich Court",
   "license": "ISC",
   "dependencies": {
-    "css-loader": "^3.2.0",
+    "css-loader": "^6.7.3",
     "node-sass": "^4.12.0",
-    "sass-loader": "^7.3.1",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.39.2"
+    "sass-loader": "^13.2.0",
+    "style-loader": "^1.3.0",
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^5.0.1"
   }
 }
